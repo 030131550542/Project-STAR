@@ -10,7 +10,7 @@ Today, we all know about the Hubble telescope. However, it was announced that in
 
 # Solution:
 Our application has 3 main functions.
-
+<img src="https://images-2019.spaceappschallenge.org/team-photos/MQDdNIFfDO9sIPdaNbZd7xIRDfE=/13816/width-800/"/>
 <li>AR observatory</li>
 <li>AR James Webb telescope</li>
 <li>AR travel</li>
