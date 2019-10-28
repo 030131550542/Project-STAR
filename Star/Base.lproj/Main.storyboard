@@ -1,16 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14807" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14810.11" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="w3Q-ra-TFh">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14764"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14766.13"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Menu View Controller-->
+        <scene sceneID="sMU-oG-mwa">
+            <objects>
+                <viewController id="w3Q-ra-TFh" customClass="MenuViewController" customModule="Star" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Ek-sE-iBJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="StAR" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WTI-Yq-r4z">
+                                <rect key="frame" x="40" y="84" width="334" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="72j-Hq-YJ5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Jf-ta-1EB">
+                                <rect key="frame" x="40" y="552" width="334" height="166.5"/>
+                                <state key="normal" image="travel"/>
+                                <connections>
+                                    <segue destination="TTq-kF-7Bf" kind="show" id="ZMB-bu-w8N"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Jq-4q-q3w">
+                                <rect key="frame" x="40" y="350.5" width="334" height="166.5"/>
+                                <state key="normal" image="webb"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Sv-1e-R6h">
+                                <rect key="frame" x="40" y="149" width="334" height="166.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="2Sv-1e-R6h" secondAttribute="height" multiplier="329:164" id="mhm-v5-IH9"/>
+                                </constraints>
+                                <state key="normal" image="ar"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="rXs-vt-TTn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="8Jf-ta-1EB" firstAttribute="width" secondItem="1Jq-4q-q3w" secondAttribute="width" id="2Gt-u8-4TV"/>
+                            <constraint firstItem="zG4-fG-Msv" firstAttribute="trailing" secondItem="2Sv-1e-R6h" secondAttribute="trailing" constant="40" id="6Ge-Xa-uDW"/>
+                            <constraint firstItem="8Jf-ta-1EB" firstAttribute="height" secondItem="1Jq-4q-q3w" secondAttribute="height" id="C2d-qd-IPH"/>
+                            <constraint firstItem="1Jq-4q-q3w" firstAttribute="leading" secondItem="zG4-fG-Msv" secondAttribute="leading" constant="40" id="GVr-uS-AFF"/>
+                            <constraint firstItem="zG4-fG-Msv" firstAttribute="trailing" secondItem="1Jq-4q-q3w" secondAttribute="trailing" constant="40" id="JOP-7Y-mOo"/>
+                            <constraint firstItem="2Sv-1e-R6h" firstAttribute="top" secondItem="WTI-Yq-r4z" secondAttribute="bottom" constant="25" id="LLP-Iy-PFq"/>
+                            <constraint firstItem="1Jq-4q-q3w" firstAttribute="top" secondItem="2Sv-1e-R6h" secondAttribute="bottom" constant="35" id="NjE-H7-DOw"/>
+                            <constraint firstItem="1Jq-4q-q3w" firstAttribute="height" secondItem="2Sv-1e-R6h" secondAttribute="height" id="P0S-I5-OkM"/>
+                            <constraint firstItem="2Sv-1e-R6h" firstAttribute="leading" secondItem="zG4-fG-Msv" secondAttribute="leading" constant="40" id="RWV-qK-O6E"/>
+                            <constraint firstItem="WTI-Yq-r4z" firstAttribute="top" secondItem="zG4-fG-Msv" secondAttribute="top" constant="40" id="UbY-fl-gcI"/>
+                            <constraint firstItem="WTI-Yq-r4z" firstAttribute="leading" secondItem="zG4-fG-Msv" secondAttribute="leading" constant="40" id="f9F-Gj-Gpu"/>
+                            <constraint firstItem="8Jf-ta-1EB" firstAttribute="top" secondItem="1Jq-4q-q3w" secondAttribute="bottom" constant="35" id="jMR-9i-bG0"/>
+                            <constraint firstItem="zG4-fG-Msv" firstAttribute="trailing" secondItem="WTI-Yq-r4z" secondAttribute="trailing" constant="40" id="ljS-41-d2E"/>
+                            <constraint firstItem="8Jf-ta-1EB" firstAttribute="centerX" secondItem="zG4-fG-Msv" secondAttribute="centerX" id="sdP-CK-EaA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="zG4-fG-Msv"/>
+                    </view>
+                    <connections>
+                        <outletCollection property="contollers" destination="2Sv-1e-R6h" collectionClass="NSMutableArray" id="gmg-d4-G52"/>
+                        <outletCollection property="contollers" destination="8Jf-ta-1EB" collectionClass="NSMutableArray" id="3Lk-ye-zw2"/>
+                        <outletCollection property="contollers" destination="1Jq-4q-q3w" collectionClass="NSMutableArray" id="Swu-Uc-LNZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uVQ-i3-fEs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1805.7971014492755" y="133.92857142857142"/>
+        </scene>
         <!--ARView-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" userLabel="ARView" customClass="ViewController" customModule="target" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" userLabel="ARView" customClass="ViewController" customModule="Star" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="ARView" customClass="ARView" customModule="RealityKit">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -25,5 +93,34 @@
             </objects>
             <point key="canvasLocation" x="138" y="134"/>
         </scene>
+        <!--Portals View Controller-->
+        <scene sceneID="FPl-M1-C0o">
+            <objects>
+                <viewController id="TTq-kF-7Bf" customClass="PortalsViewController" customModule="Star" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1X2-se-cqy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b4X-ut-DZQ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </arscnView>
+                        </subviews>
+                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="7a4-RC-bjg"/>
+                    </view>
+                    <connections>
+                        <outlet property="arView" destination="b4X-ut-DZQ" id="NeC-eJ-erf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oJT-D4-dba" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1131.8840579710145" y="133.92857142857142"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="ar" width="329" height="164"/>
+        <image name="travel" width="329" height="164"/>
+        <image name="webb" width="329" height="164"/>
+    </resources>
 </document>

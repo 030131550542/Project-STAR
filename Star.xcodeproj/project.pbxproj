@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6514F0CD235B15AD000A53A9 /* Mars.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6514F0CC235B1528000A53A9 /* Mars.mp4 */; };
+		6514F0D0235B1AAE000A53A9 /* Moon.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6514F0CE235B1959000A53A9 /* Moon.mp4 */; };
+		6514F0D1235B1AAE000A53A9 /* Venus.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6514F0CF235B195A000A53A9 /* Venus.mp4 */; };
+		65967649235B2B6B00EF4770 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65967648235B2B6B00EF4770 /* MenuViewController.swift */; };
 		65D0847D235B0AA8000E898A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D0847C235B0AA8000E898A /* AppDelegate.swift */; };
 		65D0847F235B0AA8000E898A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D0847E235B0AA8000E898A /* ViewController.swift */; };
 		65D08482235B0AA8000E898A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D08480235B0AA8000E898A /* Main.storyboard */; };
-		65D08484235B0AA8000E898A /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 65D08483235B0AA8000E898A /* Experience.rcproject */; };
 		65D08486235B0AAA000E898A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D08485235B0AAA000E898A /* Assets.xcassets */; };
 		65D08489235B0AAA000E898A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D08487235B0AAA000E898A /* LaunchScreen.storyboard */; };
 		65D08494235B0AAA000E898A /* StarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D08493235B0AAA000E898A /* StarTests.swift */; };
 		65D0849F235B0AAA000E898A /* StarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D0849E235B0AAA000E898A /* StarUITests.swift */; };
+		65D084AD235B0AF7000E898A /* PortalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D084AC235B0AF7000E898A /* PortalsViewController.swift */; };
+		65D084AF235B0B2D000E898A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D084AE235B0B2D000E898A /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6514F0CC235B1528000A53A9 /* Mars.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mars.mp4; sourceTree = "<group>"; };
+		6514F0CE235B1959000A53A9 /* Moon.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Moon.mp4; sourceTree = "<group>"; };
+		6514F0CF235B195A000A53A9 /* Venus.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Venus.mp4; sourceTree = "<group>"; };
+		65967648235B2B6B00EF4770 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		65D08479235B0AA8000E898A /* Star.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Star.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D0847C235B0AA8000E898A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65D0847E235B0AA8000E898A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		65D08481235B0AA8000E898A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		65D08483235B0AA8000E898A /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		65D08485235B0AAA000E898A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65D08488235B0AAA000E898A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65D0848A235B0AAA000E898A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +57,8 @@
 		65D0849A235B0AAA000E898A /* StarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D0849E235B0AAA000E898A /* StarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarUITests.swift; sourceTree = "<group>"; };
 		65D084A0235B0AAA000E898A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65D084AC235B0AF7000E898A /* PortalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortalsViewController.swift; sourceTree = "<group>"; };
+		65D084AE235B0B2D000E898A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +112,15 @@
 				65D0847C235B0AA8000E898A /* AppDelegate.swift */,
 				65D0847E235B0AA8000E898A /* ViewController.swift */,
 				65D08480235B0AA8000E898A /* Main.storyboard */,
-				65D08483235B0AA8000E898A /* Experience.rcproject */,
 				65D08485235B0AAA000E898A /* Assets.xcassets */,
 				65D08487235B0AAA000E898A /* LaunchScreen.storyboard */,
 				65D0848A235B0AAA000E898A /* Info.plist */,
+				65D084AC235B0AF7000E898A /* PortalsViewController.swift */,
+				6514F0CE235B1959000A53A9 /* Moon.mp4 */,
+				6514F0CF235B195A000A53A9 /* Venus.mp4 */,
+				6514F0CC235B1528000A53A9 /* Mars.mp4 */,
+				65D084AE235B0B2D000E898A /* art.scnassets */,
+				65967648235B2B6B00EF4770 /* MenuViewController.swift */,
 			);
 			path = Star;
 			sourceTree = "<group>";
@@ -232,7 +247,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6514F0D0235B1AAE000A53A9 /* Moon.mp4 in Resources */,
+				6514F0D1235B1AAE000A53A9 /* Venus.mp4 in Resources */,
+				6514F0CD235B15AD000A53A9 /* Mars.mp4 in Resources */,
 				65D08489235B0AAA000E898A /* LaunchScreen.storyboard in Resources */,
+				65D084AF235B0B2D000E898A /* art.scnassets in Resources */,
 				65D08486235B0AAA000E898A /* Assets.xcassets in Resources */,
 				65D08482235B0AA8000E898A /* Main.storyboard in Resources */,
 			);
@@ -260,8 +279,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				65D0847F235B0AA8000E898A /* ViewController.swift in Sources */,
+				65967649235B2B6B00EF4770 /* MenuViewController.swift in Sources */,
 				65D0847D235B0AA8000E898A /* AppDelegate.swift in Sources */,
-				65D08484235B0AA8000E898A /* Experience.rcproject in Sources */,
+				65D084AD235B0AF7000E898A /* PortalsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
